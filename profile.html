@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            padding: 0;
+            margin: 0;
+            background: url(https://images.pexels.com/photos/2437286/pexels-photo-2437286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center;
+            justify-content: center; */
+            min-height: 100vh;
+            background-position: center;
+        }
+    </style> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <div class="menu">
+        <span class="toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+        <div class="menuContent">
+            <ul>
+                <li><a href="#aboutMe">Profile</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- NAV BAR -->
+
+    <!-- Main Body -->
+    <div class="parallax-container">
+        <div class="parallax"><img
+                src="https://images.unsplash.com/photo-1574323710412-024e77eb31c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjcwMDYyfQ&auto=format&fit=crop&w=1650&q=80">
+        </div>
+    </div>
+    <div class="section black">
+        <div class="row container">
+            <h2 class="header white-text left" id="aboutMe">Blaise M. Laurel</h2>
+            <p class="white-text text-darken-3 lighten-3 left">Parallax is an effect where the background content or
+                image in
+                this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <div class="container mainPro col s12 m12 l12">
+
+
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img
+                src="https://images.unsplash.com/photo-1487349384428-12b47aca925e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80">
+        </div>
+    </div>
+    <div class="section black">
+        <div class="row container">
+            <h2 class="header white-text left" id="gallery">Gallery</h2>
+            <p class="white-text text-darken-3 lighten-3 left">Parallax is an effect where the background content or
+                image in
+                this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <div class="container mainPro col s12 m12 l12">
+
+
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img
+                src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80">
+        </div>
+    </div>
+    <div class="section black">
+        <div class="row container">
+            <h2 class="header white-text left" id="contact">Contact</h2>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix icon-white">account_circle</i>
+                            <input placeholder="First Name" id="first_name" type="text" class="validate white">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="Last Name" id="last_name" type="text" class="validate white">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix icon-white">lock_outline</i>
+                            <input placeholder="Password" id="password" type="password" class="validate white">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix icon-white">mail</i>
+                            <input placeholder="Email" id="email" type="email" class="validate white">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect orange darken-2" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+
+                
+            </div>
+
+            <span style="font-size: 3rem;">
+                <span style="color: white"><i class="fab fa-instagram"></i></span>
+            </span>
+            <span style="font-size: 3rem;">
+                <span style="color: white"><i class="fab fa-github"></i></span>
+            </span>
+            <span style="font-size: 3rem;">
+                <span style="color: white"><i class="fab fa-linkedin"></i></span>
+            </span>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="move.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/8720aaaae8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
