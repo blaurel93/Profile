@@ -168,3 +168,26 @@ body {
   i.icon-white {
     color: white!important;
 }
+.iconFind {
+  font-size: 11px;
+  
+}
+.hovMe:hover {
+  color: black;
+  font-size: 15px;
+}
+.card {
+  /* top: 10px!important;
+  left: 10px!important;
+  width: 15vw!important;
+  height: 35vh!important; */
+  border-radius: 10px!important;
+  
+}
+.galContain {
+  flex-wrap: wrap;
+}
+.cardText {
+  color: black!important;
+  font-size: 16px;
+}
