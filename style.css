@@ -147,7 +147,7 @@ body {
 
   /* Profile Page */
   .mainPro {
-      background-color: rgba(250, 250, 250, 0.726);
+      /* background-color: rgba(250, 250, 250, 0.726); */
       width: 80%;
       height: 74vh;
       border-radius: 10px;
@@ -196,4 +196,12 @@ body {
   width: 5vw;
   border-radius: 10px;
   height: 3vh;
+}
+#skateboard {
+  width: 27vw;
+  height: 32vh;
+}
+.skateboarding {
+  width: 22vw;
+  height: 20vh;
 }
